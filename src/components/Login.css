@@ -1,0 +1,33 @@
+
+.login-box {
+    background-color: rgb(245, 235, 193);
+    width: 350px;
+    max-width: 85%;
+    margin: 40px auto;
+    padding: 35px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.login-icon {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.login-box h2 {
+    color: #172554;
+    margin-bottom: 10px;
+}
+
+.login-box p {
+    color: #64748b;
+    font-size: 14px;
+}
+
+.login-details {
+    background-color: #f1f5f9;
+    padding: 12px;
+    margin-top: 20px;
+    border-radius: 10px;
+}

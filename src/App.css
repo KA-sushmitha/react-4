@@ -1,0 +1,58 @@
+
+.app {
+    min-height: 100vh;
+    background-color: #f8fafc;
+}
+
+header {
+    background-color: #172554;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+header h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #cbd5e1;
+}
+
+.login-section {
+    text-align: center;
+    padding: 35px 15px;
+    background-color: rgb(253, 253, 253);
+}
+
+.login-section h2 {
+    color: #1e293b;
+    margin-bottom: 20px;
+}
+
+.login-btn,
+.logout-btn {
+    border: none;
+    padding: 12px 35px;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-btn {
+    background-color: #2563eb;
+}
+
+.logout-btn {
+    background-color: #dc2626;
+}
+
+.login-btn:hover {
+    background-color: #1d4ed8;
+}
+
+.logout-btn:hover {
+    background-color: #b91c1c;
+}
