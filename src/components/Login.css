@@ -1,6 +1,6 @@
 
 .login-box {
-    background-color: rgb(245, 235, 193);
+    background-color: rgb(49, 93, 109);
     width: 350px;
     max-width: 85%;
     margin: 40px auto;
@@ -16,18 +16,24 @@
 }
 
 .login-box h2 {
-    color: #172554;
+    color: #4d5b8b;
     margin-bottom: 10px;
 }
 
 .login-box p {
-    color: #64748b;
+    color: #c2cbd8;
     font-size: 14px;
+    font-weight: bold;
 }
 
 .login-details {
-    background-color: #f1f5f9;
+    background-color: #ecf1f7;
+    
     padding: 12px;
     margin-top: 20px;
     border-radius: 10px;
+}
+
+.login-details p{
+    color: #172554;
 }

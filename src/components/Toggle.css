@@ -1,0 +1,97 @@
+
+/* Counter Card */
+.counter {
+    min-width: 400px;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+/* Light Mode Counter */
+.app.light .counter {
+    background-color: white;
+    color: black;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Dark Mode Counter */
+.app.dark .counter {
+    background-color: #1f2937;
+    color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Count Display */
+.count-display {
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 10px;
+    background-color: #eff6ff;
+    color: black;
+}
+
+.app.dark .count-display {
+    background-color: #374151;
+    color: white;
+}
+
+/* Counter Buttons */
+.counter-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.counter-btn button {
+    padding: 12px 18px;
+    border-radius: 9px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+/* Increment */
+.incre-btn {
+    background-color: rgb(246, 166, 193);
+}
+
+/* Decrement */
+.decre-btn {
+    background-color: #a6c1ec;
+}
+
+/* Reset */
+.reset-btn {
+    background-color: bisque;
+}
+
+.counter-btn button:hover {
+    opacity: 0.8;
+    transform: translateY(-2px);
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+    .counter {
+        min-width: auto;
+        margin: 20px 10px;
+        padding: 25px 15px;
+    }
+
+    .counter-btn {
+        flex-direction: column;
+    }
+
+    .counter-btn button {
+        width: 100%;
+    }
+}

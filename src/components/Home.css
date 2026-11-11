@@ -1,6 +1,6 @@
 
 .home-box {
-    background-color: rgb(230, 253, 250);
+    background-color: rgb(126, 156, 151);
     max-width: 500px;
     margin: 40px auto;
     padding: 40px 20px;
@@ -15,12 +15,13 @@
 }
 
 .home-box h2 {
-    color: #166534;
-    margin-bottom: 12px;
+    color: red;
+    margin-bottom: 10px;
 }
 
 .home-box p {
-    color: #64748b;
+    color: #124f1d;
+    
 }
 
 .home-box h3 {

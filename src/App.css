@@ -1,14 +1,59 @@
 
-.app {
-    min-height: 100vh;
-    background-color: #f8fafc;
+* {
+    box-sizing: border-box;
 }
 
-header {
-    background-color: #172554;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.app {
+    min-height: 100vh;
+    padding: 20px;
+    transition: 0.3s;
+}
+
+/* Light Theme */
+.app.light {
+    background-color: #f1f5f9;
+    color: black;
+}
+
+/* Dark Theme */
+.app.dark {
+    background-color: #111827;
     color: white;
+}
+
+/* Theme Button - Top Right */
+.theme-top {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+}
+
+.theme-btn {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color:  #434c64;
+    color: white;
+}
+
+.theme-btn:hover {
+    opacity: 0.8;
+}
+
+/* Header */
+header {
     text-align: center;
     padding: 30px 15px;
+    background-color: #142044;
+    color: white;
+    border-radius: 10px;
 }
 
 header h1 {
@@ -20,17 +65,20 @@ header p {
     color: #cbd5e1;
 }
 
+/* Login Section */
 .login-section {
     text-align: center;
     padding: 35px 15px;
-    background-color: rgb(253, 253, 253);
+    background-color: transparent;
+    color: inherit;
 }
 
 .login-section h2 {
-    color: #1e293b;
     margin-bottom: 20px;
+    color: inherit;
 }
 
+/* Login and Logout Buttons */
 .login-btn,
 .logout-btn {
     border: none;
@@ -55,4 +103,15 @@ header p {
 
 .logout-btn:hover {
     background-color: #b91c1c;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .app {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 21px;
+    }
 }
